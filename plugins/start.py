@@ -116,14 +116,14 @@ async def start_command(client: Client, message: Message):
     else:
         buttons = [
             [
-                InlineKeyboardButton("🎬𝗖𝗛𝗔𝗡𝗡𝗘𝗟🎬", url=client.invitelink),
-                InlineKeyboardButton("🔰𝗚𝗥𝗨𝗣🔰", url=client.invitelink2),
+                InlineKeyboardButton("🎬 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🎬", url=client.invitelink),
+                InlineKeyboardButton("🔰 𝗚𝗥𝗨𝗣 🔰", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("🎬𝗖𝗛𝗔𝗡𝗡𝗘𝗟🎬", url=client.invitelink3),
+                InlineKeyboardButton("🎬 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🎬", url=client.invitelink3),
             ],  
             [
-                InlineKeyboardButton("🔅 ᴛᴜᴛᴜᴘ 🔅", callback_data="close"),
+                InlineKeyboardButton("🔥 𝗧𝗨𝗧𝗨𝗣 🔥", callback_data="close"),
             ],
         ]
         await message.reply_text(
@@ -150,18 +150,18 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("🎬𝗖𝗛𝗔𝗡𝗡𝗘𝗟🎬", url=client.invitelink), 
-            InlineKeyboardButton("🔰𝗚𝗥𝗨𝗣🔰", url=client.invitelink2),
+            InlineKeyboardButton("🎬 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🎬", url=client.invitelink), 
+            InlineKeyboardButton("🔰 𝗚𝗥𝗨𝗣 🔰", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton("🎬𝗖𝗛𝗔𝗡𝗡𝗘𝗟🎬", url=client.invitelink3), 
+            InlineKeyboardButton("🎬 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🎬", url=client.invitelink3), 
         ],
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="🔅ᴄᴏʙᴀ ʟᴀɢɪ🔅",
+                    text="⚙️𝗖𝗢𝗕𝗔 𝗟𝗔𝗚𝗜⚙️",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ]
