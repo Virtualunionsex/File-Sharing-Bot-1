@@ -34,11 +34,11 @@ CHANNEL = os.environ.get("CHANNEL", "+u5wpqREG0g1kMDc9")
 GROUP = os.environ.get("GROUP", "mutualan_fwb")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001901427817"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001847890448"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001956453789"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001901427817"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001956453789"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001847890448"))
 FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "-1001731066874"))
 
 
