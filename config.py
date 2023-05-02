@@ -9,7 +9,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5994625577:AAGTBrgHl4fo4ZbYjY_tt1jyDyRT6dBcCDs")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6114546485:AAFxzoWfrdX61j3bFcOSIR-OpCQkkHNXQdc")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -21,17 +21,17 @@ API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001702967717"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5360457944"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "@saila4")
+OWNER = os.environ.get("OWNER", "cyellaku")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "postgres://ahrwaung:xUzeUb_5NZj-WDPnbzoYrnslWwJvyRxo@rosie.db.elephantsql.com/ahrwaung")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "mutualan_fwb")
-GROUP = os.environ.get("GROUP", "linkharamkuu")
+CHANNEL = os.environ.get("CHANNEL", "+u5wpqREG0g1kMDc9")
+GROUP = os.environ.get("GROUP", "mutualan_fwb")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001901427817"))
@@ -66,7 +66,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
-ADMINS.append(OWNER_ID)
+ADMINS.append(1715348447)
 ADMINS.append(5360457944)
 ADMINS.append(0)
 ADMINS.append(0)
